@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Intro from '../components/pages/intro'
 import About from '../components/pages/about'
+import Projects from '../components/pages/projects'
 import LinkedinIcon from '../components/buttons/linkedinIcon'
 import EmailIcon from '../components/buttons/emailIcon'
 import GitHubIcon from '../components/buttons/githubIcon'
@@ -11,10 +12,10 @@ export default function Home() {
     <div className="bg-darkBlue">
       <Head>
         <title>Daniel Schenk</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
-        <link rel="manifest" href="images/site.webmanifest"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
+        <link rel="manifest" href="/images/site.webmanifest"/>
       </Head>
       <div className="pr-2 pt-2 bg-darkBlue pb-12 md:pb-2">
             <div className="flex flex-row justify-end items-end space-x-2">
@@ -34,7 +35,10 @@ export default function Home() {
       </div>
       <Intro/>
       <div className="mb-12 mx-12 my-5"><About/></div>
-
+      <section id="Projects" className="h-auto mt-12">
+        <p className="flex flex-row justify-center uppercase text-xl md:text-2xl tracking-widest text-lighterBlue font-medium">Projects</p>
+        <Projects/>
+      </section>
       <footer className="w-full py-10 flex flex-col justify-center items-center bg-darkBlue">
         <div className="flex flex-row justify-end items-end space-x-2 my-2">
             <a href="https://opensea.io/collection/simulationplayers" target="_blank">
