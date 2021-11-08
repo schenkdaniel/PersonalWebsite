@@ -19,16 +19,16 @@ export default function Home() {
       </Head>
       <div className="pr-2 pt-2 bg-darkBlue pb-12 md:pb-2">
             <div className="flex flex-row justify-end items-end space-x-2">
-                <a href="https://opensea.io/collection/simulationplayers" target="_blank">
+                <a href="https://github.com/schenkdaniel" target="_blank">
                 <GitHubIcon size={44} color="#4DA8DA" hoverColor="#425664" strokeWidth="1.5" />
                 </a>
-                <a href="https://discord.gg/c59gnvF35M" target="_blank">
+                <a href="https://www.linkedin.com/in/daniel-schenk-67a220225/" target="_blank">
                 <LinkedinIcon size={44} color="#4DA8DA" hoverColor="#425664" strokeWidth="1.5" />
                 </a>
-                <a href="https://www.instagram.com/leollii" target="_blank">
+                <a href="./documents/Resume-Daniel-Schenk.pdf" download="Daniel-Schenk-Resume" target="_blank">
                 <DownloadIcon size={44} color="#4DA8DA" hoverColor="#425664" strokeWidth="1.5" />
                 </a>
-                <a href="https://twitter.com/simplayersnft" target="_blank">
+                <a href="mailto:schenkd@umich.edu" target="_blank">
                 <EmailIcon size={44} color="#4DA8DA" hoverColor="#425664" strokeWidth="1.5" />
                 </a>
             </div>
@@ -41,13 +41,13 @@ export default function Home() {
       </section>
       <footer className="w-full py-10 flex flex-col justify-center items-center bg-darkBlue">
         <div className="flex flex-row justify-end items-end space-x-2 my-2">
-            <a href="https://opensea.io/collection/simulationplayers" target="_blank">
+            <a href="https://github.com/schenkdaniel" target="_blank">
               <GitHubIcon size={44} color="#4DA8DA" hoverColor="#425664" strokeWidth="1.5" />
             </a>
-            <a href="https://discord.gg/c59gnvF35M" target="_blank">
+            <a href="https://www.linkedin.com/in/daniel-schenk-67a220225/" target="_blank">
               <LinkedinIcon size={44} color="#4DA8DA" hoverColor="#425664" strokeWidth="1.5" />
             </a>
-            <a href="https://www.instagram.com/leollii" target="_blank">
+            <a href="./documents/Resume-Daniel-Schenk.pdf" download="Daniel-Schenk-Resume" target="_blank">
               <DownloadIcon size={44} color="#4DA8DA" hoverColor="#425664" strokeWidth="1.5" />
             </a>
             <a href="mailto:schenkd@umich.edu" target="_blank">
