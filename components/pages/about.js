@@ -23,14 +23,14 @@ export default function About() {
                 <div className="flex flex-col items-center justify-center">
                     <p className="uppercase tracking-widest text-lighterBlue text-xl md:text-2xl font-medium pt-12">Skills</p>
                     <div className="flex mt-5 justify-center font-light">
-                        <ul className="text-lighterBlue list-square py-4 px-8 md:px-12 rounded-l-lg bg-inside">
+                        <ul className="text-lightBlue list-square py-4 px-8 md:px-12 rounded-l-lg bg-inside">
                             <li><p className="text-offwhite">C/C++</p></li>
                             <li><p className="text-offwhite">Python</p></li>
                             <li><p className="text-offwhite">JavaScript</p></li>
                             <li><p className="text-offwhite">MATLAB</p></li>
                             <li><p className="text-offwhite">RStudio</p></li>
                         </ul>
-                        <ul className="text-lighterBlue list-square py-4 px-8 md:px-12 rounded-r-lg bg-inside">
+                        <ul className="text-lightBlue list-square py-4 px-8 md:px-12 rounded-r-lg bg-inside">
                             <li><p className="text-offwhite">React.js</p></li>
                             <li><p className="text-offwhite">Windows</p></li>
                             <li><p className="text-offwhite">Linux</p></li>

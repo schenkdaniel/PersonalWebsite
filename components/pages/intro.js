@@ -9,7 +9,7 @@ export default function Intro() {
                 <p className="pt-5 pb-0 justify-center font-medium">Hey! My name is,</p>
             </div>
             <div id="greeting" className="flex flex-row">
-                <p className="text-3xl md:text-6xl pr-5 text-offwhite font-bold justify-center">Daniel <span className="text-greyish">Schenk</span></p>
+                <p className="text-3xl md:text-6xl pr-5 text-offwhite font-bold justify-center">Daniel <span className="text-offwhite">Schenk</span></p>
             </div>
             <div className="max-w-2xl">
                 <p className="text-xl text-greyish tracking-widest md:text-2xl leading-relaxed lg:text-4xl">

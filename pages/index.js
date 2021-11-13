@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Intro from '../components/pages/intro'
 import About from '../components/pages/about'
-import Projects from '../components/pages/projects'
+import Project1 from '../components/pages/project1'
+import Project2 from '../components/pages/project2'
+import Project3 from '../components/pages/project3'
+import Project4 from '../components/pages/project4'
 import LinkedinIcon from '../components/buttons/linkedinIcon'
 import EmailIcon from '../components/buttons/emailIcon'
 import GitHubIcon from '../components/buttons/githubIcon'
@@ -36,8 +39,12 @@ export default function Home() {
       <Intro/>
       <div className="mb-12 mx-12 my-5"><About/></div>
       <section id="Projects" className="h-auto mt-12">
-        <p className="flex flex-row justify-center uppercase text-xl md:text-2xl tracking-widest text-lighterBlue font-medium">Projects</p>
-        <Projects/>
+        <p className="flex flex-row justify-center uppercase text-xl md:text-2xl tracking-widest text-lighterBlue font-medium">Featured Project</p>
+        <Project1/>
+        <p className="flex flex-row justify-center uppercase text-xl md:text-2xl tracking-widest text-lighterBlue font-medium pt-12">Other Projects</p>
+        <Project2/>
+        <Project3/>
+        <Project4/>
       </section>
       <footer className="w-full py-10 flex flex-col justify-center items-center bg-darkBlue">
         <div className="flex flex-row justify-end items-end space-x-2 my-2">
