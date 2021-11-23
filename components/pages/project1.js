@@ -6,7 +6,7 @@ export default function Project1() {
         <div className="p-6 max-w-2xl flex flex-col items-center px-12">
             <div className="flex flex-row items-start">
                 <p className="font-medium font-semibold text-lg md:text-xl text-offwhite">Simulation Players</p>
-                    <a href="https://simulationplayers.io" target="_blank">
+                    <a href="https://simulationplayers.vercel.app/" target="_blank">
                         <ExternalLinkIcon strokeWidth="1.5" size={15} color="#EEFBFB" hoverColor="#A0A1A1"/>
                     </a>
             </div>

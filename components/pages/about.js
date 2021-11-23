@@ -13,7 +13,7 @@ export default function About() {
                     . I am also the lead developer for the popular Instagram artist 
                     <a href="https://www.instagram.com/leollii/" target="_blank" className="font-semibold text-lightBlue hover:text-grayblue"> @Leollii's </a>
                     NFT collection. The collection is called 
-                    <a href="https://www.simulationplayers.io/" target="_blank" className="font-semibold text-lightBlue hover:text-grayblue"> Simulation Players</a>
+                    <a href="https://simulationplayers.vercel.app/" target="_blank" className="font-semibold text-lightBlue hover:text-grayblue"> Simulation Players</a>
                     . You can read more about this project under my featured projects. In addition, I have taught programming courses to aspiring 
                     software developers through 
                     <a href="https://www.idtech.com/" target="_blank" className="font-semibold text-lightBlue hover:text-grayblue"> iD Tech</a>
