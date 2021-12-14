@@ -22,7 +22,7 @@ export default function Project1() {
                         <li className="px-4">TailwindCSS</li>
                 </ul>
                 <ul className="flex list-none text-lightBlue justify-center">
-                        <li className="px-4">Solana</li>
+                        <li className="px-4">Solidity</li>
                         <li className="px-4">Smart Contracts</li>
                 </ul>
             </div>
