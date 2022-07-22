@@ -12,11 +12,11 @@ export default function Experience() {
                         <ExternalLinkIcon strokeWidth="1.5" size={15} color="#EEFBFB" hoverColor="#A0A1A1"/>
                     </a>
             </div>
-            <p className="text-sm md:text-base text-start text-base text-center lg:text-base text-white">Software Engineering Intern | Royal Oak, MI | May 2022 - August 2022</p>
-            <div className="text-greyish justify-center font-light text-base md:text-large lg:text-xl leading-relaxed py-2 md:text-start px-4 flex flex-row">
-                <button id="partial" className="flex flex-col items-center" onClick={() => (document.getElementById('full').style.display='block', document.getElementById('partial').style.display='none')}>
-                <p className="hover:cursor-pointer text-greyish font-light text-base md:text-large lg:text-xl leading-relaxed py-2 text-center px-4 flex flex-row">Shibumi is a small but impactful enterprise-facing software company. I was lucky enough to spend 4 months interning at Shibumi and learning the ins and outs of software engineering...</p></button>
-                    <span id="full" className="hidden"><p className="text-greyish font-light text-base md:text-large lg:text-xl leading-relaxed py-2 text-center px-4 flex flex-row">Shibumi is a small but impactful enterprise-facing software company. I was lucky enough to spend 4 months interning at Shibumi and learning the ins and outs of software engineering.<br/>
+            <p className="max-w-2xl text-sm md:text-base text-base text-center items-start lg:text-base text-white">Software Engineering Intern | Royal Oak, MI | May 2022 - August 2022</p>
+            <div className="text-greyish font-light text-base md:text-large lg:text-xl leading-relaxed py-2 md:text-start px-4 flex flex-row">
+                <button id="partial" className="flex flex-col items-start" onClick={() => (document.getElementById('full').style.display='block', document.getElementById('partial').style.display='none')}>
+                <p className="hover:cursor-pointer max-w-2xl text-greyish font-light text-base md:text-large lg:text-xl leading-relaxed py-2 text-start px-4 flex flex-row">Shibumi is a small but impactful enterprise-facing software company. I was lucky enough to spend 4 months interning at Shibumi and learning the ins and outs of software engineering...</p></button>
+                    <span id="full" className="hidden"><p className="max-w-2xl text-greyish font-light text-base md:text-large lg:text-xl leading-relaxed py-2 text-start md:px-5 flex flex-row">Shibumi is a small but impactful enterprise-facing software company. I was lucky enough to spend 4 months interning at Shibumi and learning the ins and outs of software engineering.<br/>
                     During my internship, I completely rewrote and optimized an entire microservice. I rewrote the service in Node.js and typescript from Java and Node.js. I was also able to increase speed,
                     decrease memory usage, and increase the readablity of code. I also learned how to use AWS S3 buckets, and the Nest.js framework. <br/>
                     In addition, I created a full-stack application allowing Shibumi's clients the ability to configure SSO support with a simple UI. This involved front-end work with typescript and React, back-end work

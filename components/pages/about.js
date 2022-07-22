@@ -23,21 +23,21 @@ export default function About() {
                 <div className="flex flex-col items-center justify-center">
                     <p className="uppercase tracking-widest text-lighterBlue text-xl md:text-2xl font-medium pt-12">Skills</p>
                     <div className="flex mt-5 justify-center font-light">
-                        <ul className="text-lightBlue list-square py-4 px-8 md:px-12 rounded-l-lg bg-inside">
+                        <ul className="text-lightBlue list-square py-4 pl-8 pr-4 md:px-12 rounded-l-lg bg-inside">
                             <li><p className="text-offwhite">C/C++</p></li>
                             <li><p className="text-offwhite">Python</p></li>
                             <li><p className="text-offwhite">JavaScript</p></li>
                             <li><p className="text-offwhite">SQL</p></li>
                             <li><p className="text-offwhite">TypeScript</p></li>
                         </ul>
-                        <ul className="text-lightBlue list-square py-4 px-8 md:px-12 bg-inside">
+                        <ul className="text-lightBlue list-square py-4 px-4 md:px-12 bg-inside">
                             <li><p className="text-offwhite">Java</p></li>
                             <li><p className="text-offwhite">React.js</p></li>
                             <li><p className="text-offwhite">Node.js</p></li>
                             <li><p className="text-offwhite">Git</p></li>
                             <li><p className="text-offwhite">AWS</p></li>
                         </ul>
-                        <ul className="text-lightBlue list-square py-4 px-8 md:px-12 rounded-r-lg bg-inside">
+                        <ul className="text-lightBlue list-square py-4 px-4 md:px-12 rounded-r-lg bg-inside">
                             <li><p className="text-offwhite">Docker</p></li>
                             <li><p className="text-offwhite">Redis</p></li>
                             <li><p className="text-offwhite">Jenkins</p></li>
