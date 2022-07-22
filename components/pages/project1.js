@@ -28,7 +28,7 @@ export default function Project1() {
             </div>
         </div>
         <div className="pt-10 px-10">
-            <img src="./images/simulationplayerssmallimg.png"/>
+        <a href="https://simulationplayers.vercel.app/" target="_blank"><img className="hover:opacity-75" src="./images/simulationplayerssmallimg.png"/></a>
         </div>
         </div>
     )

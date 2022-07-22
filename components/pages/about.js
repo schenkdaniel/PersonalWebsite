@@ -27,14 +27,22 @@ export default function About() {
                             <li><p className="text-offwhite">C/C++</p></li>
                             <li><p className="text-offwhite">Python</p></li>
                             <li><p className="text-offwhite">JavaScript</p></li>
-                            <li><p className="text-offwhite">MATLAB</p></li>
-                            <li><p className="text-offwhite">RStudio</p></li>
+                            <li><p className="text-offwhite">SQL</p></li>
+                            <li><p className="text-offwhite">TypeScript</p></li>
+                        </ul>
+                        <ul className="text-lightBlue list-square py-4 px-8 md:px-12 bg-inside">
+                            <li><p className="text-offwhite">Java</p></li>
+                            <li><p className="text-offwhite">React.js</p></li>
+                            <li><p className="text-offwhite">Node.js</p></li>
+                            <li><p className="text-offwhite">Git</p></li>
+                            <li><p className="text-offwhite">AWS</p></li>
                         </ul>
                         <ul className="text-lightBlue list-square py-4 px-8 md:px-12 rounded-r-lg bg-inside">
-                            <li><p className="text-offwhite">React.js</p></li>
-                            <li><p className="text-offwhite">Windows</p></li>
-                            <li><p className="text-offwhite">Linux</p></li>
-                            <li><p className="text-offwhite">RaspberryPi</p></li>
+                            <li><p className="text-offwhite">Docker</p></li>
+                            <li><p className="text-offwhite">Redis</p></li>
+                            <li><p className="text-offwhite">Jenkins</p></li>
+                            <li><p className="text-offwhite">MATLAB</p></li>
+                            <li><p className="text-offwhite">RStudio</p></li>
                         </ul> 
                     </div>
                 </div>

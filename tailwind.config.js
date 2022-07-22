@@ -10,6 +10,7 @@ module.exports = {
         'grayblue': '#425664',
         'lighterBlue' : '#4DA8DA',
         'greyish' : '#A0A1A1',
+        'darkgreyish' : '#696969',
       },
       fontFamily: {
         mono: ['Orbitron']

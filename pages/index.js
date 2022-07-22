@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Intro from '../components/pages/intro'
 import About from '../components/pages/about'
+import Experience from '../components/pages/experience'
 import Project1 from '../components/pages/project1'
 import Project2 from '../components/pages/project2'
 import Project3 from '../components/pages/project3'
@@ -39,7 +40,9 @@ export default function Home() {
       <Intro/>
       <div className="mb-12 mx-12 my-5"><About/></div>
       <section id="Projects" className="h-auto mt-12">
-        <p className="flex flex-row justify-center uppercase text-xl md:text-2xl tracking-widest text-lighterBlue font-medium">Featured Project</p>
+        <p className="flex flex-row justify-center uppercase text-xl md:text-2xl tracking-widest text-lighterBlue font-medium pt-12">Experience</p>
+        <Experience/>
+        <p className="flex flex-row justify-center uppercase text-xl md:text-2xl tracking-widest text-lighterBlue font-medium pt-12">Featured Project</p>
         <Project1/>
         <p className="flex flex-row justify-center uppercase text-xl md:text-2xl tracking-widest text-lighterBlue font-medium pt-12">Other Projects</p>
         <Project2/>
